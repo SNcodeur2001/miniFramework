@@ -1,0 +1,24 @@
+{
+  "name": "mapathe/maxit",
+  "description": "Projet de maxit avec coach wane",
+  "autoload": {
+    "psr-4": {
+      "Mapathe\\Maxit\\": "src/",
+      "App\\Core\\Abstract\\": "app/core/abstract/"
+      
+    }
+  },
+  "authors": [
+    {
+      "name": "Mapathe Ndiaye"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "scripts": {
+    "database:migrate": "php migrations/migration.php --reset",
+    "seeder:migrate": "php seeders/seeder.php --reset",
+    "start": "php -S localhost:8000 -t public"
+  }
+}
