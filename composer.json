@@ -1,20 +1,23 @@
 {
   "name": "mapathe/maxit",
-  "description": "Projet de maxit avec coach wane",
+  "description": "Mini-framework PHP POO inspiré de Laravel, avec support MVC, routing, validation et migrations.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mapathe Ndiaye",
+      "email": "ton@email.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "vlucas/phpdotenv": "^5.6"
+  },
   "autoload": {
     "psr-4": {
       "Mapathe\\Maxit\\": "src/",
       "App\\Core\\Abstract\\": "app/core/abstract/"
-      
     }
-  },
-  "authors": [
-    {
-      "name": "Mapathe Ndiaye"
-    }
-  ],
-  "require": {
-    "vlucas/phpdotenv": "^5.6"
   },
   "scripts": {
     "database:migrate": "php migrations/migration.php --reset",
@@ -22,5 +25,5 @@
     "start": "php -S localhost:8000 -t public"
   },
   "minimum-stability": "stable",
-  "type": "project"
+  "prefer-stable": true
 }
