@@ -581,7 +581,7 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 
 **Mapathe Ndiaye**
 - Email: mapathendiaye542@gmail.com
-- GitHub: [@mapathe](https://github.com/mapathe)
+- GitHub: [@mapathe](https://github.com/SNcodeur2001)
 
 ---
 
