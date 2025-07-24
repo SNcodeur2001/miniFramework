@@ -1,5 +1,5 @@
 {
-  "name": "mapathe/Miniframework",
+"name": "mapathe/miniframework",
   "description": "Mini-framework PHP POO inspiré de Laravel, avec support MVC, routing, validation et migrations.",
   "type": "project",
   "license": "MIT",
